@@ -1,0 +1,40 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-container {
+    width: 100vw;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-container {
+    display: flex;
+    gap: 100px;
+}
+
+.bottom-container {
+    min-height: 200px;
+    display: flex;
+    justify-content : center;
+    align-items: center; 
+}
+
+button {
+    padding: 50px;
+    background-color: pink;
+    font-size: 32px;;
+}
+
